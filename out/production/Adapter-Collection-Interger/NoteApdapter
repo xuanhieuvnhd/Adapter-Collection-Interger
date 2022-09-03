@@ -1,0 +1,7 @@
+- Target: interface mà Client yêu cầu
+
+- Adaptee: interface không tương thích với `interface mà client yêu cầu (cụ thể ở đây là Target).
+
+- Adapter: lớp giúp interface không tương thích (Adaptee) làm việc được với interface mà client yêu cầu (Target).
+
+- Client: lớp nhận đầu vào là Adaptee và chuyển đổi sang Target thông qua Adapter
